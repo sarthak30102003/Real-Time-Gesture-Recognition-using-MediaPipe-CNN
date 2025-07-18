@@ -139,7 +139,7 @@ summary.py
 ---
 
 ## 📸 Sample Output
-
+▶️ [Click to watch the demo video](assets/demo.mp4)
 ---
 
 ## 📧 Contact
