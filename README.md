@@ -138,6 +138,10 @@ summary.py
 ```
 ---
 
+## 📸 Sample Output
+
+---
+
 ## 📧 Contact
 
 **Sarthak Aggarwal**
