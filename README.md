@@ -106,12 +106,10 @@ Implemented a webcam-based live prediction system using OpenCV:
 ├── train.py          # Conv1D model training
 ├── test.py           # Live webcam testing interface
 ├── summary.py        # Model summary printer
-├── utils.py          # Shared preprocessing utilities
-├── MP\_Data/          # Directory for saved frame-wise .npy keypoints
-├── action.h5         # Trained model file
-└── Logs/             # TensorBoard logs
+└── utils.py          # Shared preprocessing utilities
 
-````
+```
+⚠️ Note: Ensure you create the `MP_Data/` directory and collect training data using `collect.py` before running `train.py`.
 
 ---
 
@@ -119,21 +117,25 @@ Implemented a webcam-based live prediction system using OpenCV:
 
 1. **Collect data**:  
 ```bash
-python collect.py
+collect.py
 ````
 
 2. **Train model**:
 
 ```bash
-python train.py
+train.py
 ```
 
 3. **Test real-time prediction**:
 
 ```bash
-python test.py
+test.py
 ```
+4. **Summary of the model**:
 
+```bash
+summary.py
+```
 ---
 
 ## 📧 Contact
